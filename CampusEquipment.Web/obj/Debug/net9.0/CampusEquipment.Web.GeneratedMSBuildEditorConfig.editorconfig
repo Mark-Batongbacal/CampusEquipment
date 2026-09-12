@@ -20,6 +20,22 @@ build_property._RazorSourceGeneratorDebug =
 build_property.EffectiveAnalysisLevelStyle = 9.0
 build_property.EnableCodeStyleSeverity = 
 
+[/home/mark/Documents/CampusEquipment/CampusEquipment.Web/Views/Equipment/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRXF1aXBtZW50L0NyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/mark/Documents/CampusEquipment/CampusEquipment.Web/Views/Equipment/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRXF1aXBtZW50L0RldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/mark/Documents/CampusEquipment/CampusEquipment.Web/Views/Equipment/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRXF1aXBtZW50L0VkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/mark/Documents/CampusEquipment/CampusEquipment.Web/Views/Equipment/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRXF1aXBtZW50L0luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [/home/mark/Documents/CampusEquipment/CampusEquipment.Web/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
