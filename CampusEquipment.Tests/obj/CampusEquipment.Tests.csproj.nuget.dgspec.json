@@ -1,0 +1,393 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/mark/Documents/CampusEquipment/CampusEquipment.Tests/CampusEquipment.Tests.csproj": {}
+  },
+  "projects": {
+    "/home/mark/Documents/CampusEquipment/CampusEquipment.Api/CampusEquipment.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/mark/Documents/CampusEquipment/CampusEquipment.Api/CampusEquipment.Api.csproj",
+        "projectName": "CampusEquipment.Api",
+        "projectPath": "/home/mark/Documents/CampusEquipment/CampusEquipment.Api/CampusEquipment.Api.csproj",
+        "packagesPath": "/home/mark/.nuget/packages/",
+        "outputPath": "/home/mark/Documents/CampusEquipment/CampusEquipment.Api/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/mark/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "/home/mark/Documents/CampusEquipment/CampusEquipment.Core/CampusEquipment.Core.csproj": {
+                "projectPath": "/home/mark/Documents/CampusEquipment/CampusEquipment.Core/CampusEquipment.Core.csproj"
+              },
+              "/home/mark/Documents/CampusEquipment/CampusEquipment.Infrastructure/CampusEquipment.Infrastructure.csproj": {
+                "projectPath": "/home/mark/Documents/CampusEquipment/CampusEquipment.Infrastructure/CampusEquipment.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[9.0.19, )"
+            },
+            "Swashbuckle.AspNetCore.SwaggerUI": {
+              "target": "Package",
+              "version": "[10.2.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/9.0.317/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/mark/Documents/CampusEquipment/CampusEquipment.Core/CampusEquipment.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/mark/Documents/CampusEquipment/CampusEquipment.Core/CampusEquipment.Core.csproj",
+        "projectName": "CampusEquipment.Core",
+        "projectPath": "/home/mark/Documents/CampusEquipment/CampusEquipment.Core/CampusEquipment.Core.csproj",
+        "packagesPath": "/home/mark/.nuget/packages/",
+        "outputPath": "/home/mark/Documents/CampusEquipment/CampusEquipment.Core/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/mark/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/9.0.317/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/mark/Documents/CampusEquipment/CampusEquipment.Infrastructure/CampusEquipment.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/mark/Documents/CampusEquipment/CampusEquipment.Infrastructure/CampusEquipment.Infrastructure.csproj",
+        "projectName": "CampusEquipment.Infrastructure",
+        "projectPath": "/home/mark/Documents/CampusEquipment/CampusEquipment.Infrastructure/CampusEquipment.Infrastructure.csproj",
+        "packagesPath": "/home/mark/.nuget/packages/",
+        "outputPath": "/home/mark/Documents/CampusEquipment/CampusEquipment.Infrastructure/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/mark/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "/home/mark/Documents/CampusEquipment/CampusEquipment.Core/CampusEquipment.Core.csproj": {
+                "projectPath": "/home/mark/Documents/CampusEquipment/CampusEquipment.Core/CampusEquipment.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/9.0.317/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/mark/Documents/CampusEquipment/CampusEquipment.Tests/CampusEquipment.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/mark/Documents/CampusEquipment/CampusEquipment.Tests/CampusEquipment.Tests.csproj",
+        "projectName": "CampusEquipment.Tests",
+        "projectPath": "/home/mark/Documents/CampusEquipment/CampusEquipment.Tests/CampusEquipment.Tests.csproj",
+        "packagesPath": "/home/mark/.nuget/packages/",
+        "outputPath": "/home/mark/Documents/CampusEquipment/CampusEquipment.Tests/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/mark/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "/home/mark/Documents/CampusEquipment/CampusEquipment.Api/CampusEquipment.Api.csproj": {
+                "projectPath": "/home/mark/Documents/CampusEquipment/CampusEquipment.Api/CampusEquipment.Api.csproj"
+              },
+              "/home/mark/Documents/CampusEquipment/CampusEquipment.Infrastructure/CampusEquipment.Infrastructure.csproj": {
+                "projectPath": "/home/mark/Documents/CampusEquipment/CampusEquipment.Infrastructure/CampusEquipment.Infrastructure.csproj"
+              },
+              "/home/mark/Documents/CampusEquipment/CampusEquipment.Web/CampusEquipment.Web.csproj": {
+                "projectPath": "/home/mark/Documents/CampusEquipment/CampusEquipment.Web/CampusEquipment.Web.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.12.0, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.20.72, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[6.0.2, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.9.2, )"
+            },
+            "xunit.runner.visualstudio": {
+              "target": "Package",
+              "version": "[2.8.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/9.0.317/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/mark/Documents/CampusEquipment/CampusEquipment.Web/CampusEquipment.Web.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/mark/Documents/CampusEquipment/CampusEquipment.Web/CampusEquipment.Web.csproj",
+        "projectName": "CampusEquipment.Web",
+        "projectPath": "/home/mark/Documents/CampusEquipment/CampusEquipment.Web/CampusEquipment.Web.csproj",
+        "packagesPath": "/home/mark/.nuget/packages/",
+        "outputPath": "/home/mark/Documents/CampusEquipment/CampusEquipment.Web/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/mark/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "/home/mark/Documents/CampusEquipment/CampusEquipment.Core/CampusEquipment.Core.csproj": {
+                "projectPath": "/home/mark/Documents/CampusEquipment/CampusEquipment.Core/CampusEquipment.Core.csproj"
+              },
+              "/home/mark/Documents/CampusEquipment/CampusEquipment.Infrastructure/CampusEquipment.Infrastructure.csproj": {
+                "projectPath": "/home/mark/Documents/CampusEquipment/CampusEquipment.Infrastructure/CampusEquipment.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/9.0.317/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
