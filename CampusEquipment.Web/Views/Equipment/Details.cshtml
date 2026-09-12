@@ -1,0 +1,18 @@
+@model EquipmentDto
+@{
+    ViewData["Title"] = "Equipment Details";
+}
+
+<h1>Equipment Details</h1>
+<dl class="row mt-4">
+    <dt class="col-sm-3">Asset Code</dt><dd class="col-sm-9">@Model.AssetCode</dd>
+    <dt class="col-sm-3">Name</dt><dd class="col-sm-9">@Model.Name</dd>
+    <dt class="col-sm-3">Category</dt><dd class="col-sm-9">@Model.Category</dd>
+    <dt class="col-sm-3">Brand</dt><dd class="col-sm-9">@Model.Brand</dd>
+    <dt class="col-sm-3">Model</dt><dd class="col-sm-9">@Model.Model</dd>
+    <dt class="col-sm-3">Purchase Date</dt><dd class="col-sm-9">@Model.PurchaseDate?.ToString("yyyy-MM-dd")</dd>
+    <dt class="col-sm-3">Status</dt><dd class="col-sm-9">@Model.Status</dd>
+    <dt class="col-sm-3">Department</dt><dd class="col-sm-9">@Model.DepartmentName</dd>
+</dl>
+<a asp-action="Edit" asp-route-id="@Model.EquipmentId" class="btn btn-primary">Edit</a>
+<a asp-action="Index" class="btn btn-outline-secondary">Back</a>
