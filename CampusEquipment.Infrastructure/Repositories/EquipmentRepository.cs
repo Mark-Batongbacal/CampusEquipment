@@ -27,7 +27,6 @@ public class EquipmentRepository : IEquipmentRepository<Equipment>
 
     public async Task AddAsync(Equipment entity)
     {
-        // Add only this row; do not insert related navigation entities.
         _context.Entry(entity).State = EntityState.Added;
         await _context.SaveChangesAsync();
     }

@@ -27,7 +27,6 @@ public class DepartmentRepository : IDepartmentRepository<Department>
 
     public async Task AddAsync(Department entity)
     {
-        // Add only this row; do not insert related navigation entities.
         _context.Entry(entity).State = EntityState.Added;
         await _context.SaveChangesAsync();
     }
