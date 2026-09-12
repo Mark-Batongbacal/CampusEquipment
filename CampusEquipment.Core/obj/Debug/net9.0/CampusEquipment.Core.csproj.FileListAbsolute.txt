@@ -1,0 +1,12 @@
+/home/mark/Documents/CampusEquipment/CampusEquipment.Core/bin/Debug/net9.0/CampusEquipment.Core.deps.json
+/home/mark/Documents/CampusEquipment/CampusEquipment.Core/bin/Debug/net9.0/CampusEquipment.Core.dll
+/home/mark/Documents/CampusEquipment/CampusEquipment.Core/bin/Debug/net9.0/CampusEquipment.Core.pdb
+/home/mark/Documents/CampusEquipment/CampusEquipment.Core/obj/Debug/net9.0/CampusEquipment.Core.GeneratedMSBuildEditorConfig.editorconfig
+/home/mark/Documents/CampusEquipment/CampusEquipment.Core/obj/Debug/net9.0/CampusEquipment.Core.AssemblyInfoInputs.cache
+/home/mark/Documents/CampusEquipment/CampusEquipment.Core/obj/Debug/net9.0/CampusEquipment.Core.AssemblyInfo.cs
+/home/mark/Documents/CampusEquipment/CampusEquipment.Core/obj/Debug/net9.0/CampusEquipment.Core.csproj.CoreCompileInputs.cache
+/home/mark/Documents/CampusEquipment/CampusEquipment.Core/obj/Debug/net9.0/CampusEquipment.Core.sourcelink.json
+/home/mark/Documents/CampusEquipment/CampusEquipment.Core/obj/Debug/net9.0/CampusEquipment.Core.dll
+/home/mark/Documents/CampusEquipment/CampusEquipment.Core/obj/Debug/net9.0/refint/CampusEquipment.Core.dll
+/home/mark/Documents/CampusEquipment/CampusEquipment.Core/obj/Debug/net9.0/CampusEquipment.Core.pdb
+/home/mark/Documents/CampusEquipment/CampusEquipment.Core/obj/Debug/net9.0/ref/CampusEquipment.Core.dll

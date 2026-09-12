@@ -49,6 +49,29 @@
         "frameworkReferences": [
           "Microsoft.AspNetCore.App"
         ]
+      },
+      "CampusEquipment.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "compile": {
+          "bin/placeholder/CampusEquipment.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CampusEquipment.Core.dll": {}
+        }
+      },
+      "CampusEquipment.Infrastructure/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "CampusEquipment.Core": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/CampusEquipment.Infrastructure.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CampusEquipment.Infrastructure.dll": {}
+        }
       }
     }
   },
@@ -104,10 +127,22 @@
         "swashbuckle.aspnetcore.swaggerui.10.2.3.nupkg.sha512",
         "swashbuckle.aspnetcore.swaggerui.nuspec"
       ]
+    },
+    "CampusEquipment.Core/1.0.0": {
+      "type": "project",
+      "path": "../CampusEquipment.Core/CampusEquipment.Core.csproj",
+      "msbuildProject": "../CampusEquipment.Core/CampusEquipment.Core.csproj"
+    },
+    "CampusEquipment.Infrastructure/1.0.0": {
+      "type": "project",
+      "path": "../CampusEquipment.Infrastructure/CampusEquipment.Infrastructure.csproj",
+      "msbuildProject": "../CampusEquipment.Infrastructure/CampusEquipment.Infrastructure.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net9.0": [
+      "CampusEquipment.Core >= 1.0.0",
+      "CampusEquipment.Infrastructure >= 1.0.0",
       "Microsoft.AspNetCore.OpenApi >= 9.0.19",
       "Swashbuckle.AspNetCore.SwaggerUI >= 10.2.3"
     ]
@@ -136,7 +171,14 @@
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "/home/mark/Documents/CampusEquipment/CampusEquipment.Core/CampusEquipment.Core.csproj": {
+              "projectPath": "/home/mark/Documents/CampusEquipment/CampusEquipment.Core/CampusEquipment.Core.csproj"
+            },
+            "/home/mark/Documents/CampusEquipment/CampusEquipment.Infrastructure/CampusEquipment.Infrastructure.csproj": {
+              "projectPath": "/home/mark/Documents/CampusEquipment/CampusEquipment.Infrastructure/CampusEquipment.Infrastructure.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

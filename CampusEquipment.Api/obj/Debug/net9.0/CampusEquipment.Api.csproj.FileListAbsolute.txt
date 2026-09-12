@@ -31,3 +31,8 @@
 /home/mark/Documents/CampusEquipment/CampusEquipment.Api/obj/Debug/net9.0/CampusEquipment.Api.pdb
 /home/mark/Documents/CampusEquipment/CampusEquipment.Api/obj/Debug/net9.0/CampusEquipment.Api.genruntimeconfig.cache
 /home/mark/Documents/CampusEquipment/CampusEquipment.Api/obj/Debug/net9.0/ref/CampusEquipment.Api.dll
+/home/mark/Documents/CampusEquipment/CampusEquipment.Api/bin/Debug/net9.0/CampusEquipment.Core.dll
+/home/mark/Documents/CampusEquipment/CampusEquipment.Api/bin/Debug/net9.0/CampusEquipment.Infrastructure.dll
+/home/mark/Documents/CampusEquipment/CampusEquipment.Api/bin/Debug/net9.0/CampusEquipment.Core.pdb
+/home/mark/Documents/CampusEquipment/CampusEquipment.Api/bin/Debug/net9.0/CampusEquipment.Infrastructure.pdb
+/home/mark/Documents/CampusEquipment/CampusEquipment.Api/obj/Debug/net9.0/CampusEquipment.Api.sourcelink.json

@@ -1,0 +1,56 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "CampusEquipment.Web/1.0.0": {
+        "dependencies": {
+          "CampusEquipment.Core": "1.0.0",
+          "CampusEquipment.Infrastructure": "1.0.0"
+        },
+        "runtime": {
+          "CampusEquipment.Web.dll": {}
+        }
+      },
+      "CampusEquipment.Core/1.0.0": {
+        "runtime": {
+          "CampusEquipment.Core.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "CampusEquipment.Infrastructure/1.0.0": {
+        "dependencies": {
+          "CampusEquipment.Core": "1.0.0"
+        },
+        "runtime": {
+          "CampusEquipment.Infrastructure.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CampusEquipment.Web/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CampusEquipment.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CampusEquipment.Infrastructure/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

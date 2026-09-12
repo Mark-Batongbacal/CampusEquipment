@@ -8,6 +8,8 @@
     ".NETCoreApp,Version=v9.0": {
       "CampusEquipment.Api/1.0.0": {
         "dependencies": {
+          "CampusEquipment.Core": "1.0.0",
+          "CampusEquipment.Infrastructure": "1.0.0",
           "Microsoft.AspNetCore.OpenApi": "9.0.19",
           "Swashbuckle.AspNetCore.SwaggerUI": "10.2.3"
         },
@@ -41,6 +43,25 @@
             "fileVersion": "10.2.3.2721"
           }
         }
+      },
+      "CampusEquipment.Core/1.0.0": {
+        "runtime": {
+          "CampusEquipment.Core.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "CampusEquipment.Infrastructure/1.0.0": {
+        "dependencies": {
+          "CampusEquipment.Core": "1.0.0"
+        },
+        "runtime": {
+          "CampusEquipment.Infrastructure.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
       }
     }
   },
@@ -70,6 +91,16 @@
       "sha512": "sha512-nthWONRs/FJ4yyG206g1cC52WEG8EqrjuMWjGdR+5XG7lbjFto6NqcI9EMICgVFom/UivIjUVwI76ZHbHwTPfQ==",
       "path": "swashbuckle.aspnetcore.swaggerui/10.2.3",
       "hashPath": "swashbuckle.aspnetcore.swaggerui.10.2.3.nupkg.sha512"
+    },
+    "CampusEquipment.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CampusEquipment.Infrastructure/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }
