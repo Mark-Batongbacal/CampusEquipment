@@ -14,3 +14,5 @@
 /home/mark/Documents/CampusEquipment/CampusEquipment.Infrastructure/obj/Debug/net9.0/refint/CampusEquipment.Infrastructure.dll
 /home/mark/Documents/CampusEquipment/CampusEquipment.Infrastructure/obj/Debug/net9.0/CampusEquipment.Infrastructure.pdb
 /home/mark/Documents/CampusEquipment/CampusEquipment.Infrastructure/obj/Debug/net9.0/ref/CampusEquipment.Infrastructure.dll
+/home/mark/Documents/CampusEquipment/CampusEquipment.Infrastructure/bin/Debug/net9.0/CampusEquipment.Infrastructure.runtimeconfig.json
+/home/mark/Documents/CampusEquipment/CampusEquipment.Infrastructure/obj/Debug/net9.0/CampusEquipment.Infrastructure.genruntimeconfig.cache
