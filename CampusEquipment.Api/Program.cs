@@ -1,8 +1,13 @@
 using CampusEquipment.Api.Middleware;
 using CampusEquipment.Api.Models;
+using CampusEquipment.Core.Repositories;
+using CampusEquipment.Core.Services;
 using Microsoft.AspNetCore.Mvc;
 using CampusEquipment.Infrastructure.Data;
 using Microsoft.EntityFrameworkCore;
+using CampusEquipment.Infrastructure.Entities;
+using CampusEquipment.Infrastructure.Repositories;
+using CampusEquipment.Infrastructure.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -12,7 +17,12 @@ builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")
         ?? throw new InvalidOperationException("Connection string 'DefaultConnection' is missing.")));
 
-// Register IEquipmentService and IDepartmentService here once their implementations exist.
+builder.Services.AddScoped<IEquipmentRepository<Equipment>, EquipmentRepository>();
+builder.Services.AddScoped<IDepartmentRepository<Department>, DepartmentRepository>();
+
+builder.Services.AddScoped<IEquipmentService, EquipmentService>();
+builder.Services.AddScoped<IDepartmentService, DepartmentService>();
+
 builder.Services.AddExceptionHandler<ApiExceptionHandler>();
 builder.Services.AddProblemDetails();
 builder.Services.AddControllers().ConfigureApiBehaviorOptions(options =>
