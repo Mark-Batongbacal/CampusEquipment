@@ -1,6 +1,51 @@
-@CampusEquipment.Api_HostAddress = http://localhost:5156
+@host = http://localhost:5156
+@equipmentId = 1
 
-GET {{CampusEquipment.Api_HostAddress}}/weatherforecast/
+GET {{host}}/api/equipment?search=PC&category=Computer&status=Available&departmentId=1
 Accept: application/json
 
 ###
+GET {{host}}/api/equipment/{{equipmentId}}
+
+###
+POST {{host}}/api/equipment
+Content-Type: application/json
+
+{
+  "assetCode": "PC-006",
+  "name": "Desktop Computer",
+  "category": "Computer",
+  "brand": "Dell",
+  "model": "OptiPlex",
+  "purchaseDate": "2026-09-12",
+  "status": "Available",
+  "departmentId": 1
+}
+
+###
+PUT {{host}}/api/equipment/{{equipmentId}}
+Content-Type: application/json
+
+{
+  "equipmentId": {{equipmentId}},
+  "assetCode": "PC-006",
+  "name": "Desktop Computer",
+  "category": "Computer",
+  "brand": "Dell",
+  "model": "OptiPlex",
+  "purchaseDate": "2026-09-12",
+  "status": "Available",
+  "departmentId": 1
+}
+
+###
+PATCH {{host}}/api/equipment/{{equipmentId}}/retire
+
+###
+DELETE {{host}}/api/equipment/{{equipmentId}}
+
+###
+GET {{host}}/api/departments
+
+###
+GET {{host}}/api/departments/1
