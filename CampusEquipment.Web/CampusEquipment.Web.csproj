@@ -1,5 +1,10 @@
 <Project Sdk="Microsoft.NET.Sdk.Web">
 
+  <ItemGroup>
+    <ProjectReference Include="..\CampusEquipment.Core\CampusEquipment.Core.csproj" />
+    <ProjectReference Include="..\CampusEquipment.Infrastructure\CampusEquipment.Infrastructure.csproj" />
+  </ItemGroup>
+
   <PropertyGroup>
     <TargetFramework>net9.0</TargetFramework>
     <Nullable>enable</Nullable>
